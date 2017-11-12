@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                     scr.setVisibility(View.GONE);
                     WebView web = (WebView) findViewById(R.id.web);
                     web.setVisibility(View.VISIBLE);
-                    web.loadUrl(prescrip);
+                    web.loadUrl("http://192.33.203.60:8080/update.html?id="+prescrip);
 //                    HttpURLConnection client = null;
 //                    try {
 //                        URL url = new URL("http://www/somewebsite.com/api/patient");
